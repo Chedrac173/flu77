@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: WebView(
-        initialUrl: "https://www.couturia-apps.com/adm/adm/login",
+        initialUrl: "https://www.couturia-apps.com/",
         javascriptMode: JavascriptMode.unrestricted,
       ),
     );
